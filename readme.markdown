@@ -5,6 +5,31 @@ text fields, links, and tables.
 
 ## Installation
 
+### With Composer
+
+__Add the following to your composer.json then run composer install__
+
+```json
+{
+    "require": {
+        "Indatus/Widgets": "*"
+    }
+}
+```
+
+__Register the service provider in ```app/config/app.php```__
+
+```php
+    [...]
+    'providers' => array(
+        [...]
+        'Illuminate\View\ViewServiceProvider',
+        'Illuminate\Workbench\WorkbenchServiceProvider',
+        'Indatus\Widgets\WidgetsServiceProvider'
+    ),
+    [...]
+```
+
 
 ## Widget Gallery
 
