@@ -12,7 +12,7 @@ __Add the following to your composer.json then run composer install__
 ```json
 {
     "require": {
-        "Indatus/Widgets": "*"
+        "indatus/widgets": "dev-master"
     }
 }
 ```
