@@ -1,0 +1,21 @@
+{
+    "name": "indatus/widgets",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jeff Trespalacios",
+            "email": "jtrespalacios@indatus.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-0": {
+            "Indatus\\Widgets\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

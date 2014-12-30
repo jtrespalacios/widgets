@@ -1,0 +1,1 @@
+<label for="{{$for}}" {{ \Indatus\Widgets\Helper::expandOptions($options) }}>{{$displayText}}</label>

@@ -1,0 +1,1 @@
+<input type="text" name="{{$name}}" id="{{$name}}" @if($data) value="{{$data}}" @endif {{ \Indatus\Widgets\Helper::expandOptions($options) }}/>

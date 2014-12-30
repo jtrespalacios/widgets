@@ -1,0 +1,1 @@
+<a href="{{$target}}" {{ \Indatus\Widgets\Helper::expandOptions($options)}} >{{$displayText}}</a>

@@ -1,0 +1,12 @@
+.loud {
+    font-weight: 100;
+    font-size: 3em;
+}
+
+.email {
+    border: double 2px burlywood;
+}
+
+.outbound ::after{
+    content: "Outbound";
+}
