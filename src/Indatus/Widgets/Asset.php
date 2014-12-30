@@ -13,11 +13,11 @@ class Asset
 {
     public static function scripts()
     {
-        return '\<script src="/packages/indatus/widgets/widgets.js"></script>';;
+        return '<script src="' . asset("packages/indatus/widgets/widgets.js") . '"></script>';
     }
 
     public static function styles()
     {
-        return '\<link rel="stylesheet" href="/packages/indatus/widgets/widgets.css"\>';
+        return '<link rel="stylesheet" href="' . asset("packages/indatus/widgets/widgets.css") . '">';
     }
 }

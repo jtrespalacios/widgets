@@ -7,6 +7,6 @@
     border: double 2px burlywood;
 }
 
-.outbound ::after{
-    content: "Outbound";
+.outbound::after{
+    content: " \21D2";
 }
